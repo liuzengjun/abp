@@ -33,6 +33,7 @@
     },
     {
       "text": "Tutorials",
+      "path": "Tutorials/Index.md",
       "items": [
         {
           "text": "Application Development",
@@ -50,6 +51,10 @@
       ]
     },
     {
+      "text": "ASP.NET Boilerplate Migration Guide",
+      "path": "AspNet-Boilerplate-Migration-Guide.md"
+    },
+    {
       "text": "CLI",
       "path": "CLI.md"
     },
@@ -59,6 +64,10 @@
         {
           "text": "Configuration",
           "path": "Configuration.md"
+        },
+        {
+          "text": "Options",
+          "path": "Options.md"
         },
         {
           "text": "Dependency Injection",
@@ -83,7 +92,14 @@
           "path": "Exception-Handling.md"
         },
         {
-          "text": "Validation"
+          "text": "Validation",
+          "path": "Validation.md",
+          "items": [
+            {
+              "text": "FluentValidation Integration",
+              "path": "FluentValidation.md"
+            }
+          ]
         },
         {
           "text": "Authorization",
@@ -94,11 +110,20 @@
           "path": "Caching.md"
         },
         {
-          "text": "Auditing"
+          "text": "Logging",
+          "path": "Logging.md"
+        },
+        {
+          "text": "Audit Logging",
+          "path": "Audit-Logging.md"
         },
         {
           "text": "Settings",
           "path": "Settings.md"
+        },
+        {
+          "text": "Data Filtering",
+          "path": "Data-Filtering.md"
         }
       ]
     },
@@ -257,24 +282,48 @@
     },
     {
       "text": "Data Access",
+      "path": "Data-Access.md",
       "items": [
         {
-          "text": "Entity Framework Core Integration",
-          "path": "Entity-Framework-Core.md",
-          "items": [            
+          "text": "Connection Strings",
+          "path": "Connection-Strings.md"
+        },
+        {
+          "text": "Database Providers",
+          "items": [
             {
-              "text": "PostgreSQL Integration",
-              "path": "Best-Practices/PostgreSQL-Integration.md"
+              "text": "Entity Framework Core",
+              "path": "Entity-Framework-Core.md",
+              "items": [
+                {
+                  "text": "Switch DBMS",
+                  "path": "Entity-Framework-Core-Other-DBMS.md",
+                  "items": [
+                    {
+                      "text": "To MySQL",
+                      "path": "Entity-Framework-Core-MySQL.md"
+                    },
+                    {
+                      "text": "To PostgreSQL",
+                      "path": "Entity-Framework-Core-PostgreSQL.md"
+                    },
+                    {
+                      "text": "To SQLite",
+                      "path": "Entity-Framework-Core-SQLite.md"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "text": "MongoDB",
+              "path": "MongoDB.md"
+            },
+            {
+              "text": "Dapper",
+              "path": "Dapper.md"
             }
           ]
-        },
-        {
-          "text": "MongoDB Integration",
-          "path": "MongoDB.md"
-        },
-        {
-          "text": "Dapper Integration",
-          "path": "Dapper.md"
         }
       ]
     },
